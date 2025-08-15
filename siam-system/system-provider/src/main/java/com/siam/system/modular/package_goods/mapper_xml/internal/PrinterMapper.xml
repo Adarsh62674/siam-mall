@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.siam.system.modular.package_goods.mapper.internal.PrinterMapper" >
+  <resultMap id="BaseResultMap" type="com.siam.system.modular.package_goods.entity.internal.Printer" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="shop_id" property="shopId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="number" property="number" jdbcType="VARCHAR" />
+    <result column="identifying_code" property="identifyingCode" jdbcType="VARCHAR" />
+    <result column="is_auto_print" property="isAutoPrint" jdbcType="BIT" />
+    <result column="mobile_card_number" property="mobileCardNumber" jdbcType="VARCHAR" />
+    <result column="cloud_registration_status" property="cloudRegistrationStatus" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="brand" property="brand" jdbcType="INTEGER" />
+    <result column="developer_id" property="developerId" jdbcType="VARCHAR" />
+    <result column="developer_key" property="developerKey" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="CustomResultMap" type="java.util.Map" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="shop_id" property="shopId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="number" property="number" jdbcType="VARCHAR" />
+    <result column="identifying_code" property="identifyingCode" jdbcType="VARCHAR" />
+    <result column="is_auto_print" property="isAutoPrint" jdbcType="BIT" />
+    <result column="mobile_card_number" property="mobileCardNumber" jdbcType="VARCHAR" />
+    <result column="cloud_registration_status" property="cloudRegistrationStatus" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="brand" property="brand" jdbcType="INTEGER" />
+    <result column="developer_id" property="developerId" jdbcType="VARCHAR" />
+    <result column="developer_key" property="developerKey" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

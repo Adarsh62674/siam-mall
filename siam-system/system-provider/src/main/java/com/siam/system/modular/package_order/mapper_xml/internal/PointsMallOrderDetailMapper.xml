@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.siam.system.modular.package_order.mapper.internal.PointsMallOrderDetailMapper" >
+  <resultMap id="BaseResultMap" type="com.siam.system.modular.package_order.entity.internal.PointsMallOrderDetail" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="order_id" property="orderId" jdbcType="INTEGER" />
+    <result column="goods_id" property="goodsId" jdbcType="INTEGER" />
+    <result column="goods_name" property="goodsName" jdbcType="VARCHAR" />
+    <result column="main_image" property="mainImage" jdbcType="VARCHAR" />
+    <result column="spec_list" property="specList" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="subtotal" property="subtotal" jdbcType="DECIMAL" />
+    <result column="packing_charges" property="packingCharges" jdbcType="DECIMAL" />
+    <result column="is_used_coupons" property="isUsedCoupons" jdbcType="BIT" />
+    <result column="coupons_discount_price" property="couponsDiscountPrice" jdbcType="DECIMAL" />
+    <result column="after_coupons_discount_price" property="afterCouponsDiscountPrice" jdbcType="DECIMAL" />
+    <result column="is_deleted" property="isDeleted" jdbcType="BIT" />
+  </resultMap>
+  <resultMap id="CustomResultMap" type="java.util.Map" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="order_id" property="orderId" jdbcType="INTEGER" />
+    <result column="goods_id" property="goodsId" jdbcType="INTEGER" />
+    <result column="goods_name" property="goodsName" jdbcType="VARCHAR" />
+    <result column="main_image" property="mainImage" jdbcType="VARCHAR" />
+    <result column="spec_list" property="specList" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="subtotal" property="subtotal" jdbcType="DECIMAL" />
+    <result column="packing_charges" property="packingCharges" jdbcType="DECIMAL" />
+    <result column="is_used_coupons" property="isUsedCoupons" jdbcType="BIT" />
+    <result column="coupons_discount_price" property="couponsDiscountPrice" jdbcType="DECIMAL" />
+    <result column="after_coupons_discount_price" property="afterCouponsDiscountPrice" jdbcType="DECIMAL" />
+    <result column="is_deleted" property="isDeleted" jdbcType="BIT" />
+  </resultMap>
+</mapper>
